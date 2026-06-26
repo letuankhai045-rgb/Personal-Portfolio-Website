@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="通过邮箱或留言表单联系陈玉琳。">
+	<title>联系我 | 我的作品森林</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/inner-nav.css">
+	<link rel="stylesheet" href="../css/message.css?v=20260625-contact-3">
+	<script src="../js/site.js?v=20260625-contact-mail" defer></script>
+</head>
+<body class="inner-page contact-page">
+	<a class="skip-link" href="#main-content">跳到主要内容</a>
+
+	<header class="site-header">
+		<div class="nav-shell">
+			<a class="site-brand" href="../index.html" aria-label="返回首页">
+				<img class="nav-avatar" src="../img/pho.png" alt="">
+			</a>
+			<button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-nav">菜单</button>
+			<nav class="primary-nav" id="primary-nav" aria-label="主导航">
+				<a href="../index.html">首页</a>
+				<a href="home.html">个人简介</a>
+				<a href="detail.html">作品集</a>
+				<a href="message.html" aria-current="page">联系我</a>
+			</nav>
+		</div>
+	</header>
+
+	<main class="page-main" id="main-content">
+		<section class="contact-hero" aria-labelledby="contact-title">
+			<div class="container contact-hero-grid">
+				<div class="contact-copy" data-reveal>
+					<p class="contact-kicker">联系我</p>
+					<h1 id="contact-title">把想法投进这只森林信箱</h1>
+					<p>如果你想聊聊作品、课程项目、品牌策划、AI 影像或新的合作可能，欢迎把消息留在这里。我会认真阅读每一封来信。</p>
+					<div class="contact-actions" aria-label="主要联系方式">
+						<a class="button" href="#contact-form">写下想法</a>
+						<a class="contact-soft-link" href="#contact-form-title">查看交流方向</a>
+					</div>
+				</div>
+
+				<div class="forest-mailbox" data-reveal aria-label="森林信箱视觉">
+					<div class="mailbox-scene">
+						<img class="mailbox-stamp" src="../img/pho.png" alt="">
+						<div class="letter-card letter-card-back">
+							<span>Brand</span>
+							<strong>策划想法</strong>
+						</div>
+						<div class="letter-card letter-card-mid">
+							<span>Visual</span>
+							<strong>影像灵感</strong>
+						</div>
+						<div class="letter-card letter-card-front">
+							<span>Message</span>
+							<strong>新的可能</strong>
+						</div>
+						<div class="mailbox-body">
+							<span class="mailbox-slot"></span>
+							<span class="mailbox-label">Forest Mail</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="contact-section" aria-labelledby="contact-form-title">
+			<div class="container contact-layout">
+				<div class="contact-note" data-reveal>
+					<p class="contact-note-label">可以聊的方向</p>
+					<h2 id="contact-form-title">这些方向都可以聊</h2>
+					<div class="contact-topic-list">
+						<span>作品交流</span>
+						<span>品牌策划</span>
+						<span>AI 影像</span>
+						<span>产品与 UI</span>
+						<span>文案写作</span>
+						<span>课程项目</span>
+					</div>
+					<div class="contact-email-card">
+						<span>邮箱</span>
+						<a href="mailto:1759269788@qq.com">1759269788@qq.com</a>
+					</div>
+				</div>
+
+				<form class="contact-form" id="contact-form" data-reveal>
+					<div class="form-row">
+						<div class="form-field">
+							<label for="contact-name">你的称呼</label>
+							<input id="contact-name" name="name" type="text" autocomplete="name" placeholder="怎么称呼你" required>
+						</div>
+						<div class="form-field">
+							<label for="contact-email">你的邮箱</label>
+							<input id="contact-email" name="email" type="email" autocomplete="email" placeholder="方便我回复你" required>
+						</div>
+					</div>
+					<div class="form-field">
+						<label for="contact-subject">主题</label>
+						<input id="contact-subject" name="subject" type="text" placeholder="作品交流 / 合作想法 / 其他">
+					</div>
+					<div class="form-field">
+						<label for="contact-message">留言内容</label>
+						<textarea id="contact-message" name="message" placeholder="写下你的想法、看到的作品或希望交流的方向" required></textarea>
+					</div>
+					<button class="button" type="submit">提交留言</button>
+					<p class="form-status" id="form-status" role="status">已为你生成邮件草稿，请在邮件客户端中确认发送。</p>
+				</form>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container footer-shell">
+			<p>感谢你的浏览与关注。</p>
+		</div>
+	</footer>
+</body>
+</html>

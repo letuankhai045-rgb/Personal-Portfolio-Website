@@ -1,0 +1,443 @@
+.about-map-page {
+	--about-green: #a6c96f;
+	--about-green-deep: #31583d;
+	--about-ink: #173629;
+	min-height: 100%;
+	background: var(--about-green);
+	color: #fff;
+}
+
+.about-map-page .site-header {
+	position: fixed;
+	inset: 0 0 auto;
+	z-index: 100;
+	width: 100%;
+	height: 72px;
+	border: 0;
+	border-bottom: 0;
+	border-radius: 0;
+	background: rgba(246, 252, 237, 0.64);
+	box-shadow: none;
+	backdrop-filter: blur(12px) saturate(110%);
+	-webkit-backdrop-filter: blur(12px) saturate(110%);
+}
+
+.about-map-page .site-header::after {
+	content: "";
+	position: absolute;
+	right: 0;
+	bottom: -18px;
+	left: 0;
+	height: 18px;
+	background: linear-gradient(
+		to bottom,
+		rgba(246, 252, 237, 0.3),
+		rgba(246, 252, 237, 0)
+	);
+	pointer-events: none;
+}
+
+.about-map-page .nav-shell {
+	display: flex;
+	width: min(calc(100% - 56px), 1240px);
+	height: 100%;
+	gap: 36px;
+	padding: 0;
+}
+
+.about-map-page .site-brand {
+	justify-content: flex-start;
+	color: #fff;
+	line-height: 0;
+}
+
+.nav-avatar {
+	width: 48px;
+	height: 48px;
+	border: 3px solid rgba(108, 166, 94, 0.72);
+	border-radius: 50%;
+	object-fit: cover;
+	box-shadow: 0 4px 10px rgba(33, 68, 37, 0.2);
+	transition: transform 220ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.site-brand:hover .nav-avatar {
+	transform: scale(1.06);
+}
+
+.about-map-page .primary-nav {
+	display: flex;
+	gap: clamp(12px, 2vw, 28px);
+	margin-left: auto;
+}
+
+.about-map-page .primary-nav a {
+	display: flex;
+	min-height: 42px;
+	align-items: center;
+	justify-content: center;
+	padding: 8px 12px;
+	border-radius: 999px;
+	background: transparent;
+	color: #466c49;
+	font-size: 17px;
+	font-weight: 700;
+	letter-spacing: 0.08em;
+	text-align: center;
+	transition:
+		background-color 220ms ease,
+		transform 220ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.about-map-page .primary-nav a:hover,
+.about-map-page .primary-nav a[aria-current="page"] {
+	background: rgba(97, 175, 105, 0.18);
+	color: #285b3b;
+	transform: translateY(-1px);
+}
+
+.about-map-page .menu-button {
+	display: none;
+}
+
+.about-forest {
+	position: relative;
+	min-height: 100dvh;
+	overflow: hidden;
+	background: url("../img/home-nk.png") center top / cover no-repeat;
+	isolation: isolate;
+}
+
+.about-intro {
+	position: relative;
+	z-index: 2;
+	width: min(calc(100% - 56px), 1280px);
+	margin: 0 auto;
+	padding: clamp(122px, 10vw, 154px) 0 32px;
+	font-family: "STSong", "Songti SC", "SimSun", serif;
+	text-align: center;
+	text-shadow: 0 2px 7px rgba(38, 77, 42, 0.42);
+}
+
+.about-greeting {
+	margin: 0;
+	font: inherit;
+	font-size: clamp(30px, 3.35vw, 46px);
+	font-weight: 700;
+	line-height: 1.4;
+	letter-spacing: 0.02em;
+	text-wrap: balance;
+}
+
+.about-copy {
+	display: grid;
+	width: min(100%, 1180px);
+	gap: 6px;
+	margin: 44px auto 0;
+}
+
+.about-copy p {
+	margin: 0;
+	color: #fff;
+	font: inherit;
+	font-size: clamp(17px, 1.6vw, 22px);
+	font-weight: 400;
+	line-height: 1.85;
+	text-wrap: pretty;
+}
+
+.about-copy p:first-child {
+	color: #fff;
+	font: inherit;
+	font-size: clamp(17px, 1.6vw, 22px);
+	font-weight: 400;
+}
+
+.about-copy .explore-note {
+	margin-top: 10px;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+}
+
+.forest-map {
+	position: relative;
+	z-index: 3;
+	height: clamp(650px, 52vw, 790px);
+	margin-top: clamp(20px, 4vw, 64px);
+}
+
+.map-node {
+	position: absolute;
+	display: block;
+	filter: drop-shadow(0 7px 5px rgba(41, 79, 41, 0.18));
+	transition:
+		filter 240ms ease,
+		transform 240ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.map-node::before,
+.map-node::after {
+	position: absolute;
+	left: 50%;
+	z-index: 2;
+	pointer-events: none;
+	opacity: 0;
+	transition:
+		opacity 180ms ease,
+		transform 220ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.map-node::before {
+	content: attr(data-project);
+	bottom: calc(100% - 20px);
+	padding: 9px 15px;
+	border: 1px solid rgba(87, 135, 71, 0.24);
+	border-radius: 999px;
+	background: rgba(255, 253, 235, 0.96);
+	color: #416b3d;
+	font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+	font-size: 14px;
+	font-weight: 750;
+	letter-spacing: 0.04em;
+	line-height: 1.2;
+	white-space: nowrap;
+	box-shadow: 0 6px 8px rgba(66, 103, 55, 0.14);
+	transform: translate(-50%, 8px) scale(0.94);
+}
+
+.map-node::after {
+	content: "";
+	bottom: calc(100% - 27px);
+	width: 12px;
+	height: 12px;
+	border-right: 1px solid rgba(87, 135, 71, 0.24);
+	border-bottom: 1px solid rgba(87, 135, 71, 0.24);
+	background: rgba(255, 253, 235, 0.96);
+	transform: translate(-50%, 4px) rotate(45deg) scale(0.8);
+}
+
+.map-node img {
+	width: clamp(138px, 12vw, 175px);
+	height: auto;
+	object-fit: contain;
+}
+
+.map-node:hover,
+.map-node:focus,
+.map-node:focus-visible {
+	filter: drop-shadow(0 10px 7px rgba(41, 79, 41, 0.26));
+	transform: scale(1.055);
+}
+
+.map-node:hover::before,
+.map-node:hover::after,
+.map-node:focus::before,
+.map-node:focus::after,
+.map-node:focus-visible::before,
+.map-node:focus-visible::after {
+	opacity: 1;
+}
+
+.map-node:hover::before,
+.map-node:focus::before,
+.map-node:focus-visible::before {
+	transform: translate(-50%, 0) scale(1);
+}
+
+.map-node:hover::after,
+.map-node:focus::after,
+.map-node:focus-visible::after {
+	transform: translate(-50%, 0) rotate(45deg) scale(1);
+}
+
+.map-node-overview {
+	right: 44%;
+	bottom: -1%;
+	transform: none;
+}
+
+.map-node-overview:hover,
+.map-node-overview:focus,
+.map-node-overview:focus-visible {
+	transform: scale(1.055);
+}
+
+.map-node-ai {
+	right: 1%;
+	bottom: 27%;
+}
+
+.map-node-marketing {
+	bottom: 23%;
+	left: 14%;
+}
+
+.map-node-ui {
+	bottom: -4%;
+	left: 29%;
+}
+
+.map-node-writing {
+	right: 9%;
+	bottom: 4%;
+}
+
+@media (max-width: 1000px) {
+	.about-map-page .site-header {
+		inset: 0 0 auto;
+		width: 100%;
+		height: 64px;
+		border: 0;
+		border-radius: 0;
+	}
+
+	.about-map-page .nav-shell {
+		display: flex;
+		width: min(calc(100% - 32px), var(--container));
+		height: 100%;
+		padding: 0;
+	}
+
+	.about-map-page .site-brand {
+		justify-content: flex-start;
+	}
+
+	.nav-avatar {
+		width: 44px;
+		height: 44px;
+	}
+
+	.about-map-page .menu-button {
+		display: inline-flex;
+		border-color: rgba(70, 108, 73, 0.22);
+		background: rgba(97, 175, 105, 0.13);
+		color: #376743;
+	}
+
+	.about-map-page .primary-nav {
+		position: fixed;
+		top: 74px;
+		right: 16px;
+		left: 16px;
+		display: grid;
+		gap: 6px;
+		padding: 10px;
+		border: 1px solid rgba(70, 108, 73, 0.12);
+		border-radius: 14px;
+		background: rgba(247, 252, 239, 0.96);
+		box-shadow: 0 12px 28px rgba(45, 83, 49, 0.15);
+		opacity: 0;
+		pointer-events: none;
+		transform: translateY(-10px);
+		transition:
+			opacity 180ms ease,
+			transform 180ms ease;
+	}
+
+	.about-map-page .primary-nav.is-open {
+		opacity: 1;
+		pointer-events: auto;
+		transform: translateY(0);
+	}
+
+	.about-map-page .primary-nav a:hover,
+	.about-map-page .primary-nav a[aria-current="page"] {
+		transform: none;
+	}
+
+	.about-intro {
+		width: min(calc(100% - 48px), 900px);
+		padding-top: 106px;
+	}
+
+}
+
+@media (max-width: 700px) {
+	.about-forest {
+		background-position: 54% bottom;
+	}
+
+	.about-intro {
+		width: min(calc(100% - 32px), 620px);
+		padding-top: 96px;
+		text-align: left;
+	}
+
+	.about-greeting {
+		text-align: center;
+	}
+
+	.about-copy {
+		gap: 14px;
+		margin-top: 28px;
+	}
+
+	.about-copy p {
+		font-size: 16px;
+		line-height: 1.82;
+	}
+
+	.forest-map {
+		height: 960px;
+		min-height: 920px;
+		margin-top: 42px;
+	}
+
+	.map-node img {
+		width: clamp(135px, 40vw, 172px);
+	}
+
+	.map-node-overview {
+		right: auto;
+		bottom: 36%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.map-node-overview:hover,
+	.map-node-overview:focus,
+	.map-node-overview:focus-visible {
+		transform: translateX(-50%) scale(1.055);
+	}
+
+	.map-node-ai {
+		right: 1%;
+		bottom: 5%;
+	}
+
+	.map-node-marketing {
+		top: auto;
+		bottom: 38%;
+		left: 1%;
+	}
+
+	.map-node-ui {
+		bottom: 8%;
+		left: 1%;
+	}
+
+	.map-node-writing {
+		right: 1%;
+		bottom: 39%;
+	}
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.map-node {
+		transition: none;
+	}
+}
+
+@media (prefers-reduced-transparency: reduce) {
+	.about-map-page .site-header,
+	.about-map-page .primary-nav {
+		backdrop-filter: none;
+		-webkit-backdrop-filter: none;
+	}
+
+	.about-map-page .site-header,
+	.about-map-page .primary-nav {
+		background: #f3f9e9;
+	}
+}

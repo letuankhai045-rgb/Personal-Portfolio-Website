@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="陈玉琳个人作品集项目详情。">
+  <title>项目详情｜陈玉琳个人作品集</title>
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/project.css?v=20260624-xiang-polish-6">
+  <link rel="stylesheet" href="../css/inner-nav.css">
+  <script src="../js/site.js" defer></script>
+  <script src="../js/vendor/gsap.min.js" defer></script>
+  <script src="../js/project.js?v=20260624-xiang-polish-6" defer></script>
+</head>
+<body class="project-page inner-page">
+  <a class="skip-link" href="#project-main">跳到项目内容</a>
+
+  <div class="project-loader" aria-hidden="true">
+    <div class="loader-core">
+      <span class="loader-sprout"><i></i><i></i></span>
+      <p>作品森林</p>
+      <div class="loader-line"><i></i></div>
+      <small>正在走进项目</small>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="site-brand" href="../index.html" aria-label="返回首页">
+        <img class="nav-avatar" src="../img/pho.png" alt="">
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-nav">菜单</button>
+      <nav class="primary-nav" id="primary-nav" aria-label="主导航">
+        <a href="../index.html">首页</a>
+        <a href="home.html">个人简介</a>
+        <a href="detail.html" aria-current="page">作品集</a>
+        <a href="message.html">联系我</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="project-main">
+    <div class="project-detail-layout">
+      <figure class="project-hero-image">
+        <img id="project-image" src="" alt="">
+        <figcaption id="project-number">01 / 06</figcaption>
+      </figure>
+
+      <section class="campaign-command" id="campaign-command" aria-label="立兴冻干策划案PPT分页" hidden>
+        <div class="campaign-deck" id="campaign-deck" role="group" aria-label="策划案PPT分页轮播" tabindex="0">
+          <figure class="campaign-deck-main">
+            <img id="campaign-deck-image" src="../img/lixing-archive/ppt-01.webp" alt="立兴冻干策划案PPT第1页">
+            <button class="campaign-deck-arrow is-previous" id="campaign-deck-previous" type="button" aria-label="上一页PPT">‹</button>
+            <button class="campaign-deck-arrow is-next" id="campaign-deck-next" type="button" aria-label="下一页PPT">›</button>
+          </figure>
+          <div class="campaign-deck-rail" aria-label="PPT分页缩略图">
+            <div class="campaign-deck-stage" id="campaign-deck-stage"></div>
+          </div>
+        </div>
+      </section>
+
+      <article class="project-story">
+        <div class="project-actions">
+          <a href="detail.html#featured-projects">← 返回作品集</a>
+          <span id="project-category">AI影像</span>
+        </div>
+
+        <h1 id="project-title"></h1>
+        <div class="project-tags" id="project-tags" aria-label="项目标签"></div>
+
+        <dl class="project-facts">
+          <div>
+            <dt>项目类型</dt>
+            <dd id="fact-type"></dd>
+          </div>
+          <div>
+            <dt>我的角色</dt>
+            <dd id="fact-role"></dd>
+          </div>
+          <div>
+            <dt>项目属性</dt>
+            <dd id="fact-attribute"></dd>
+          </div>
+        </dl>
+
+        <section class="project-copy">
+          <h2>项目说明</h2>
+          <div class="project-description-body">
+            <p id="project-description"></p>
+          </div>
+        </section>
+
+        <section class="project-copy">
+          <h2>我的工作</h2>
+          <p id="project-work"></p>
+        </section>
+
+        <nav class="project-pager" aria-label="项目翻页">
+          <a id="previous-project" href="#"><span>上一个项目</span><strong></strong></a>
+          <a id="next-project" href="#"><span>下一个项目</span><strong></strong></a>
+        </nav>
+      </article>
+
+      <a class="visual-wall-jump" href="#campaign-visual-wall">
+        <span>查看活动视觉图</span>
+        <i aria-hidden="true">↓</i>
+      </a>
+    </div>
+
+    <section class="wahaha-timeline" id="wahaha-timeline" aria-labelledby="wahaha-timeline-title" hidden>
+      <header class="wahaha-timeline-heading">
+        <div>
+          <p>2026.06—11 · 9个连续活动</p>
+          <h2 id="wahaha-timeline-title">30周年快乐巡游</h2>
+        </div>
+        <p>沿着“唤醒记忆—引爆互动—沉淀情感”的传播路径，查看每个活动如何从策划构想落到具体视觉。</p>
+      </header>
+
+      <div class="wahaha-timeline-explorer">
+        <nav class="wahaha-route" aria-label="娃哈哈30周年活动时间线">
+          <div class="wahaha-route-track" aria-hidden="true">
+            <i id="wahaha-route-progress"></i>
+          </div>
+          <div class="wahaha-route-nodes" id="wahaha-route-nodes"></div>
+        </nav>
+
+        <article class="wahaha-station" id="wahaha-station">
+          <section class="wahaha-station-copy" aria-live="polite">
+            <div class="wahaha-station-meta">
+              <span id="wahaha-station-phase"></span>
+              <time id="wahaha-station-date"></time>
+            </div>
+            <p class="wahaha-station-count" id="wahaha-station-count">01 / 09</p>
+            <h3 id="wahaha-station-title"></h3>
+            <p class="wahaha-station-summary" id="wahaha-station-summary"></p>
+            <dl class="wahaha-station-facts">
+              <div>
+                <dt>传播场景</dt>
+                <dd id="wahaha-station-channels"></dd>
+              </div>
+              <div>
+                <dt>活动作用</dt>
+                <dd id="wahaha-station-purpose"></dd>
+              </div>
+            </dl>
+            <div class="wahaha-station-controls">
+              <button id="wahaha-station-previous" type="button" aria-label="上一个活动">←</button>
+              <span><b id="wahaha-image-current">01</b> / <i id="wahaha-image-total">01</i></span>
+              <button id="wahaha-station-next" type="button" aria-label="下一个活动">→</button>
+            </div>
+          </section>
+
+          <div class="wahaha-station-visual">
+            <figure class="wahaha-main-visual" id="wahaha-main-visual">
+              <button id="wahaha-main-open" type="button" aria-label="放大查看当前活动视觉图">
+                <img id="wahaha-main-image" src="" alt="">
+              </button>
+              <figcaption>
+                <span id="wahaha-main-label"></span>
+                <small>点击图片放大查看</small>
+              </figcaption>
+            </figure>
+            <div class="wahaha-thumbnail-rail" id="wahaha-thumbnail-rail" role="list" aria-label="当前活动视觉图，可拖动浏览"></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="xiang-showcase" id="xiang-showcase" aria-labelledby="xiang-hifi-title" hidden>
+      <section class="xiang-hifi" aria-labelledby="xiang-hifi-title">
+        <div class="xiang-hifi-toolbar">
+          <div>
+            <p>High-fidelity Screens</p>
+            <h3 id="xiang-hifi-title">高保真界面</h3>
+          </div>
+          <div class="xiang-hifi-tabs" id="xiang-hifi-tabs" role="tablist" aria-label="选择乡音汇功能界面分类"></div>
+        </div>
+
+        <div class="xiang-gallery-shell" id="xiang-gallery-shell" tabindex="0" role="region" aria-label="乡音汇高保真界面画廊，可拖拽或使用左右方向键切换">
+          <button class="xiang-gallery-arrow is-previous" id="xiang-gallery-previous" type="button" aria-label="上一张界面">←</button>
+          <div class="xiang-gallery-stage" id="xiang-gallery-stage"></div>
+          <button class="xiang-gallery-arrow is-next" id="xiang-gallery-next" type="button" aria-label="下一张界面">→</button>
+        </div>
+
+        <div class="xiang-gallery-meta" aria-live="polite">
+          <span id="xiang-gallery-count">01 / 01</span>
+          <div>
+            <strong id="xiang-gallery-title"></strong>
+            <p id="xiang-gallery-description"></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="xiang-demo" aria-labelledby="xiang-demo-title">
+        <div>
+          <p>Interaction Demo</p>
+          <h3 id="xiang-demo-title">交互演示视频</h3>
+          <span>用视频补足静态界面之间的跳转关系，让翻译、学习、采集等功能路径真正连起来。</span>
+        </div>
+        <figure>
+          <video controls playsinline preload="metadata" poster="../img/cover-xiangyinhui.png">
+            <source src="../media/xiangyinhui-demo.mp4" type="video/mp4">
+            你的浏览器暂不支持视频播放。
+          </video>
+        </figure>
+      </section>
+
+      <section class="xiang-boards" aria-labelledby="xiang-boards-title">
+        <div class="xiang-boards-heading">
+          <p>Exhibition Boards</p>
+          <h3 id="xiang-boards-title">展板展示</h3>
+          <span>将项目背景、功能架构、界面设计与最终成果整理成展板，作为课程项目的完整汇报材料。</span>
+        </div>
+        <div class="xiang-board-grid">
+          <figure><img src="../img/xiangyinhui/boards/board-01.webp" alt="乡音汇展板第 1 页" loading="lazy"></figure>
+          <figure><img src="../img/xiangyinhui/boards/board-02.webp" alt="乡音汇展板第 2 页" loading="lazy"></figure>
+          <figure><img src="../img/xiangyinhui/boards/board-03.webp" alt="乡音汇展板第 3 页" loading="lazy"></figure>
+          <figure><img src="../img/xiangyinhui/boards/board-04.webp" alt="乡音汇展板第 4 页" loading="lazy"></figure>
+          <figure><img src="../img/xiangyinhui/boards/board-05.webp" alt="乡音汇展板第 5 页" loading="lazy"></figure>
+          <figure><img src="../img/xiangyinhui/boards/board-06.webp" alt="乡音汇展板第 6 页" loading="lazy"></figure>
+        </div>
+      </section>
+    </section>
+
+    <section class="campaign-visual-wall" id="campaign-visual-wall" aria-labelledby="campaign-visual-title" hidden>
+      <div class="visual-wall-heading">
+        <div>
+          <p>Visual Archive · <span id="visual-wall-total">83</span> 张视觉记录</p>
+          <h2 id="campaign-visual-title">活动视觉图</h2>
+        </div>
+        <div class="visual-wall-filters" id="visual-wall-filters" role="group" aria-label="筛选活动视觉图"></div>
+      </div>
+
+      <div class="visual-wall-grid" id="visual-wall-grid" aria-live="polite"></div>
+    </section>
+
+    <dialog class="visual-wall-lightbox" id="visual-wall-lightbox" aria-label="活动视觉图大图浏览">
+      <button class="visual-lightbox-close" id="visual-lightbox-close" type="button" aria-label="关闭大图">×</button>
+      <button class="visual-lightbox-arrow is-previous" id="visual-lightbox-previous" type="button" aria-label="上一张">‹</button>
+      <figure>
+        <img id="visual-lightbox-image" src="" alt="">
+        <figcaption>
+          <span id="visual-lightbox-category"></span>
+          <strong id="visual-lightbox-count"></strong>
+        </figcaption>
+      </figure>
+      <button class="visual-lightbox-arrow is-next" id="visual-lightbox-next" type="button" aria-label="下一张">›</button>
+    </dialog>
+
+    <section class="project-media" id="project-media" aria-labelledby="media-title" hidden>
+      <div class="media-heading">
+        <div>
+          <p class="media-kicker">从静态构想到动态叙事</p>
+          <h2 id="media-title">观看完整作品</h2>
+        </div>
+        <p>以校园真实建筑为视觉基础，通过 AIGC 图像生成、图生视频与后期剪辑，让熟悉的校园空间在长卷中缓缓展开。</p>
+      </div>
+
+      <figure class="project-video">
+        <video id="project-video" controls playsinline preload="metadata" poster="../img/project-sanxia.png">
+          <source id="project-video-source" src="" type="video/mp4">
+          你的浏览器暂不支持视频播放。
+        </video>
+      </figure>
+
+      <section class="script-timeline" id="script-timeline" aria-labelledby="script-timeline-title" hidden>
+        <div class="script-current" aria-live="polite">
+          <div class="script-scene-mark">
+            <span>SCENE</span>
+            <strong id="script-scene-number">01</strong>
+            <small id="script-scene-time">00:00 — 00:02</small>
+          </div>
+          <div class="script-scene-copy">
+            <div class="script-scene-heading">
+              <h2 id="script-timeline-title">电影分镜时间轴</h2>
+              <div class="script-meta">
+                <span id="script-shot"></span>
+                <span id="script-movement"></span>
+              </div>
+            </div>
+            <p class="script-visual" id="script-visual"></p>
+            <div class="script-notes">
+              <p><span>声音</span><b id="script-audio"></b></p>
+              <p><span>意图</span><b id="script-intent"></b></p>
+            </div>
+          </div>
+        </div>
+        <div class="script-rail-wrap">
+          <div class="script-rail" id="script-rail" role="group" aria-label="分镜时间轴，可拖动或选择镜头"></div>
+          <span class="script-rail-hint">拖动时间轴 · 点击镜头定位视频</span>
+        </div>
+      </section>
+
+      <div class="reference-heading">
+        <div>
+          <p class="media-kicker">Visual References</p>
+          <h2>视觉参考与创作依据</h2>
+        </div>
+        <p>真实校园照片为建筑形态、空间关系和环境细节提供参照，也是统一生成画面风格的重要基础。</p>
+      </div>
+
+      <div class="reference-carousel" id="reference-carousel" hidden>
+        <div class="reference-gallery" id="reference-gallery" role="list" aria-label="项目视觉设定图，可左右拖拽浏览"></div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
