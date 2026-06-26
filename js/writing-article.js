@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		"category": "理论分析与课程论文类",
 		"summary": "《边境杀手》（Sicario，2015）是由丹尼斯·维伦纽瓦执导、罗杰·迪金斯（Roger Deakins，ASC，BSC）担任摄影指导的犯罪惊悚片。该片以其极具辨识度的视觉语言在当代犯罪电影中占据了里程碑式的地位，并于第88届奥斯卡金像奖获得最佳摄影提名，标志着迪金斯职业生涯第12次入围该奖项。",
 		"tags": [],
-		"source": "../../作品集内容/补充-文案与写作/理论分析与课程论文类/《边境杀手》光线叙事分析.docx",
+		"source": "../docs/writing/理论分析与课程论文类/《边境杀手》光线叙事分析.docx",
 		"blocks": [
 			{
 				"type": "h3",
@@ -230,7 +230,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		"category": "理论分析与课程论文类",
 		"summary": "在当今数字化浪潮的席卷之下，互联网早已超越了单一的工具属性，演变为人类生存与精神栖息的第二空间。这一时代的变迁不仅重塑了人们的生活方式，也催生了网络美学这一新兴领域。网络美学，是指在网络技术与人类审美活动深度融合的背景下，研究网络空间中美的生成、表现、传播及受众审美体验规律的一门学问。它打破了传统美。",
 		"tags": [],
-		"source": "../../作品集内容/补充-文案与写作/理论分析与课程论文类/从“猫meme”看网络审美活动的生成与影响.docx",
+		"source": "../docs/writing/理论分析与课程论文类/从“猫meme”看网络审美活动的生成与影响.docx",
 		"blocks": [
 			{
 				"type": "p",
@@ -279,7 +279,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		"category": "理论分析与课程论文类",
 		"summary": "在数字媒介蓬勃发展的当下，传统的文艺创作与欣赏模式正在经历一场深刻的变革。过去，无论是阅读文学巨著、聆听古典交响乐，还是在影院观赏电影，审美活动往往被框定在“创作者单向输出，受众被动接收”的封闭结构中。这种传统审美强调的是心理距离与静观默察，受众在安全的“第四面墙”之外，通过共情来体验他人的悲欢离合。",
 		"tags": [],
-		"source": "../../作品集内容/补充-文案与写作/理论分析与课程论文类/以《盛世天下》为例看数字媒介对传统审美体验的重构.docx",
+		"source": "../docs/writing/理论分析与课程论文类/以《盛世天下》为例看数字媒介对传统审美体验的重构.docx",
 		"blocks": [
 			{
 				"type": "p",
@@ -312,7 +312,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		"category": "理论分析与课程论文类",
 		"summary": "图表 10 判断“反种草”内容可信的主要依据 15",
 		"tags": [],
-		"source": "../../作品集内容/补充-文案与写作/理论分析与课程论文类/关于小红书“反种草”社群内容生产与用户信任机制的调查报告.docx",
+		"source": "../docs/writing/理论分析与课程论文类/关于小红书“反种草”社群内容生产与用户信任机制的调查报告.docx",
 		"blocks": [
 			{
 				"type": "p",
@@ -1437,7 +1437,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		"category": "理论分析与课程论文类",
 		"summary": "在数字媒介全面融入日常生活的今天，互联网平台早已不再是单纯的信息集散地，而是深刻介入并重塑大众审美体验的文化场域。与传统审美活动相比，网络审美最大的变化在于，受众不再只是被动的观看者，而是可以通过发布、点赞、收藏、评论、转发和模仿等方式参与审美内容的生产与传播。小红书正是这一变化中极具代表性的社区平。",
 		"tags": [],
-		"source": "../../作品集内容/补充-文案与写作/理论分析与课程论文类/小红书审美社区中的真实分享与精致模板.docx",
+		"source": "../docs/writing/理论分析与课程论文类/小红书审美社区中的真实分享与精致模板.docx",
 		"blocks": [
 			{
 				"type": "p",
@@ -1486,7 +1486,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		"category": "理论分析与课程论文类",
 		"summary": "摘要：在新媒体与数字经济迅速发展的背景下，网络营销已成为品牌竞争的重要手段。瑞幸咖啡作为中国新零售咖啡品牌的代表，自成立以来依托移动互联网、大数据和新媒体平台实现了快速扩张，在品牌传播和用户获取方面具有较强的示范意义。但与此同时，其高度依赖促销补贴与流量型传播的营销模式，也逐渐暴露出品牌定位模糊、用。",
 		"tags": [],
-		"source": "../../作品集内容/补充-文案与写作/理论分析与课程论文类/新媒体背景下瑞幸咖啡网络营销问题分析与优化策略研究.docx",
+		"source": "../docs/writing/理论分析与课程论文类/新媒体背景下瑞幸咖啡网络营销问题分析与优化策略研究.docx",
 		"blocks": [
 			{
 				"type": "p",
@@ -1811,7 +1811,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		"category": "理论分析与课程论文类",
 		"summary": "在光影交织的荧幕世界里，喜剧电影往往被视为让人暂时逃离现实的避风港。然而，它不仅仅是引人发笑的娱乐工具，更是一种通过夸张手法、诙谐台词以及对人物幽默性格的刻画，来审视社会、抚慰心灵的艺术形式。优秀的喜剧片，往往在看似荒诞不经的表象下，蕴含着对人性的深刻洞察与对生存境遇的温情关怀，它以一种“举重若轻”。",
 		"tags": [],
-		"source": "../../作品集内容/补充-文案与写作/理论分析与课程论文类/荒诞面具下的悲悯与救赎——浅析喜剧电影的品格.docx",
+		"source": "../docs/writing/理论分析与课程论文类/荒诞面具下的悲悯与救赎——浅析喜剧电影的品格.docx",
 		"blocks": [
 			{
 				"type": "p",
@@ -1852,7 +1852,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		"category": "新闻写作与数据分析类",
 		"summary": "近日，手机品牌 vivo 的官方直播间发生一起置顶性别歧视评论争议事件。此事件源于此前 B 站头部游戏 UP 主“逍遥散人”因直播推广游戏《Varsapura》陷入性别议题争议，引发大规模脱粉潮，并被质疑“靠女粉起家却踩女粉底线”。由于 vivo 曾与逍遥散人存在商业推广合作关联，其直播间提前遭遇大。",
 		"tags": [],
-		"source": "../../作品集内容/补充-文案与写作/新闻写作与数据分析类/vivo直播间置顶性别评论争议事件舆情监测专题分析报告.docx",
+		"source": "../docs/writing/新闻写作与数据分析类/vivo直播间置顶性别评论争议事件舆情监测专题分析报告.docx",
 		"blocks": [
 			{
 				"type": "h2",
@@ -1989,7 +1989,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		"category": "新闻写作与数据分析类",
 		"summary": "12月22日，北京朝阳警方通报了一起利用AI技术造谣中国女篮的案件。两名男子为“养号”牟利，使用AI软件编造所谓“教练压榨运动员”的文案，混编制作视频后发布传播，最终获利4000元，换来了依法刑事法拘留的代价。",
 		"tags": [],
-		"source": "../../作品集内容/补充-文案与写作/新闻写作与数据分析类/网络评论：当AI成为造谣工具，谁来守护真相的底线.docx",
+		"source": "../docs/writing/新闻写作与数据分析类/网络评论：当AI成为造谣工具，谁来守护真相的底线.docx",
 		"blocks": [
 			{
 				"type": "p",
@@ -2030,7 +2030,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		"category": "新闻写作与数据分析类",
 		"summary": "北京时间12月5日晚，法国总统马克龙结束了此次访华行程的最后一站——四川成都。尽管在川停留时间不足24小时，但回顾这份密集的行程单，我们读出的不仅是国事访问的礼节，更是一场法式浪漫与川式烟火气交融的文化外交。",
 		"tags": [],
-		"source": "../../作品集内容/补充-文案与写作/新闻写作与数据分析类/网络评论：马克龙的成都之行.docx",
+		"source": "../docs/writing/新闻写作与数据分析类/网络评论：马克龙的成都之行.docx",
 		"blocks": [
 			{
 				"type": "p",
@@ -2071,7 +2071,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		"category": "新闻写作与数据分析类",
 		"summary": "2025年9月10日，罗永浩在社交平台上发布了一条微博，公开吐槽连锁餐饮品牌西贝莜面村：“好久没吃西贝了，今天下飞机跟同事吃了一顿，发现几乎全都是预制菜，还那么贵，实在是太恶心了。希望国家尽早推动立法，强制饭馆注明是否用了预制菜。” 这条看似普通的消费者吐槽，却引发了一场关于餐饮行业“预制菜”使用的。",
 		"tags": [],
-		"source": "../../作品集内容/补充-文案与写作/新闻写作与数据分析类/西贝公关.docx",
+		"source": "../docs/writing/新闻写作与数据分析类/西贝公关.docx",
 		"blocks": [
 			{
 				"type": "h2",
@@ -2396,7 +2396,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		"category": "影视编导类",
 		"summary": "内容风格：轻喜剧 + 情绪共鸣 + 产品卖点自然植入",
 		"tags": [],
-		"source": "../../作品集内容/补充-文案与写作/影视编导类/”立兴冻干“策划案中的短视频脚本.pdf",
+		"source": "../docs/writing/影视编导类/”立兴冻干“策划案中的短视频脚本.pdf",
 		"blocks": [
 			{
 				"type": "p",
@@ -2457,7 +2457,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		"category": "影视编导类",
 		"summary": "镜号 / 景别 / 运镜 / 时长 / 画面内容 / 音效 / 字幕",
 		"tags": [],
-		"source": "../../作品集内容/补充-文案与写作/影视编导类/《三峡作卷，校园为章》分镜头脚本.docx",
+		"source": "../docs/writing/影视编导类/《三峡作卷，校园为章》分镜头脚本.docx",
 		"blocks": [
 			{
 				"type": "p",
@@ -2670,7 +2670,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		"category": "影视编导类",
 		"summary": "短片类型 / 30周年情感微电影 / 品牌主题短片",
 		"tags": [],
-		"source": "../../作品集内容/补充-文案与写作/影视编导类/《大人的酸甜图鉴》30周年情感短片视频脚本.docx",
+		"source": "../docs/writing/影视编导类/《大人的酸甜图鉴》30周年情感短片视频脚本.docx",
 		"blocks": [
 			{
 				"type": "h2",
@@ -2799,7 +2799,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		"category": "影视编导类",
 		"summary": "节目名称：第一期：逐渐走散的友谊——褪色的同款包挂",
 		"tags": [],
-		"source": "../../作品集内容/补充-文案与写作/影视编导类/一物一生分镜头脚本.docx",
+		"source": "../docs/writing/影视编导类/一物一生分镜头脚本.docx",
 		"blocks": [
 			{
 				"type": "p",
@@ -2936,7 +2936,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		"category": "影视编导类",
 		"summary": "片长 / 约54秒（时间码按成品视频估算，可根据剪辑工程微调）",
 		"tags": [],
-		"source": "../../作品集内容/补充-文案与写作/影视编导类/味觉信标_分镜头脚本.docx",
+		"source": "../docs/writing/影视编导类/味觉信标_分镜头脚本.docx",
 		"blocks": [
 			{
 				"type": "p",
@@ -3077,7 +3077,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		"category": "影视编导类",
 		"summary": "视觉风格：悬疑压迫 + 明亮反转 + 品牌治愈感",
 		"tags": [],
-		"source": "../../作品集内容/补充-文案与写作/影视编导类/无尽循环的黑屋_分镜头脚本.docx",
+		"source": "../docs/writing/影视编导类/无尽循环的黑屋_分镜头脚本.docx",
 		"blocks": [
 			{
 				"type": "p",
@@ -3198,7 +3198,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		"category": "影视编导类",
 		"summary": "【场景】安静的考场里只能听见笔尖划过纸张的“沙沙”声。阳光透过窗户，在桌上投下明亮的光斑。",
 		"tags": [],
-		"source": "../../作品集内容/补充-文案与写作/影视编导类/昨日回响（微电影剧本）.docx",
+		"source": "../docs/writing/影视编导类/昨日回响（微电影剧本）.docx",
 		"blocks": [
 			{
 				"type": "p",
@@ -3635,7 +3635,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		"category": "社会实践 · 三下乡",
 		"summary": "在乡村振兴战略深入实施背景下，新媒体营销成为推动农产品销售、提升乡村知名度的重要力量。六月三十日，重庆三峡学院传媒学院星火助农团赴万州区龙驹镇灯台村开展为期5天的实践活动，旨在发挥专业优势，助力当地特色农产品借助新媒体拓展市场，推动乡村经济发展。",
 		"tags": [],
-		"source": "../../作品集内容/补充-文案与写作/社会实践-三下乡/6.30重庆三峡学院传媒学院“三下乡”：新媒体赋能灯台村振兴.docx",
+		"source": "../docs/writing/社会实践-三下乡/6.30重庆三峡学院传媒学院“三下乡”：新媒体赋能灯台村振兴.docx",
 		"blocks": [
 			{
 				"type": "p",
@@ -3664,7 +3664,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		"category": "社会实践 · 三下乡",
 		"summary": "7月2日，重庆三峡学院传媒学院星火传媒助农团走进重庆万州龙驹镇灯台村，开展乡村振兴、直播助农活动。团队成员发挥专业优势，拍摄抖音内容助力搭建账号，通过直播间介绍灯台村特色产品，拓宽销售渠道。同时，调研组与灯台村村委会主任林森、村委会副主任张友智交流，了解乡村发展方向，并通过调查问卷倾听村民心声。此次。",
 		"tags": [],
-		"source": "../../作品集内容/补充-文案与写作/社会实践-三下乡/7月2日活动简讯.docx",
+		"source": "../docs/writing/社会实践-三下乡/7月2日活动简讯.docx",
 		"blocks": [
 			{
 				"type": "p",
@@ -3677,7 +3677,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		"category": "社会实践 · 三下乡",
 		"summary": "学科赋能乡村振兴 青春实践点亮灯台——传媒学院“星火助农团”赴龙驹镇开展三下乡实践活动",
 		"tags": [],
-		"source": "../../作品集内容/补充-文案与写作/社会实践-三下乡/三下乡总结新闻稿.docx",
+		"source": "../docs/writing/社会实践-三下乡/三下乡总结新闻稿.docx",
 		"blocks": [
 			{
 				"type": "p",
@@ -3750,7 +3750,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		"category": "社会实践 · 三下乡",
 		"summary": "7月1日，重庆三峡学院传媒学院“星火助农团”在万州区龙驹镇灯台村持续推进“三下乡”社会实践活动，通过深度采访与实地调研，进一步探索新媒体赋能乡村振兴的新路径。",
 		"tags": [],
-		"source": "../../作品集内容/补充-文案与写作/社会实践-三下乡/传媒学院“三下乡”：深入调研助力灯台村，新媒体赋能乡村振兴再深化.docx",
+		"source": "../docs/writing/社会实践-三下乡/传媒学院“三下乡”：深入调研助力灯台村，新媒体赋能乡村振兴再深化.docx",
 		"blocks": [
 			{
 				"type": "p",
@@ -3783,7 +3783,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	document.title = `${article.title}｜文案与写作`;
 	shell.querySelector("[data-article-title]").textContent = article.title;
-	shell.querySelector("[data-article-source]").href = encodeURI(article.source);
+	const sourceLink = shell.querySelector("[data-article-source]");
+	sourceLink.href = encodeURI(article.source);
+	sourceLink.download = article.source.split("/").pop();
 
 	const content = shell.querySelector("[data-article-content]");
 	content.replaceChildren(...article.blocks.map((block) => {
